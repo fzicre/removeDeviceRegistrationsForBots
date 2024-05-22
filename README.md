@@ -31,7 +31,7 @@ To run the script, execute the following command:
 
  ```bash
 
-node index.js
+node drr.js
  ```
 The script will retrieve the list of devices from the Cisco Webex API and attempt to delete each device. If successful, it will print a success message. If there's an error during the deletion process, it will print an error message and prompt you to delete the device manually.
 Notes
