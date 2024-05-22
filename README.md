@@ -13,6 +13,7 @@ Before running this script, make sure you have the following:
 ## Installation
 
 Clone this repository to your local machine or simply copy this code.
+
 Then install Axios
 ```
 npm install axios
