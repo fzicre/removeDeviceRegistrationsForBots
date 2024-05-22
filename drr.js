@@ -1,4 +1,5 @@
 const axios = require('axios');
+const https = require('https'); // Import the 'https' module
 
 const userToken = "<your user token here>";
 const headers = {
@@ -7,12 +8,16 @@ const headers = {
     "Authorization": `Bearer ${userToken}`
 };
 
-axios.defaults.headers.common = headers;
-axios.defaults.httpsAgent = new axios.httpsAgent({ rejectUnauthorized: false });
+// Create a new axios instance with a custom httpsAgent
+const instance = axios.create({
+    httpsAgent: new https.Agent({ rejectUnauthorized: false })
+});
+
+instance.defaults.headers.common = headers;
 
 async function sendSpark(method, url, data) {
     try {
-        const response = await axios({
+        const response = await instance({
             method: method,
             url: url,
             data: data
