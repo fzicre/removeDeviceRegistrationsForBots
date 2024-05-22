@@ -12,24 +12,8 @@ Before running this script, make sure you have the following:
 
 ## Installation
 
-1. Clone this repository to your local machine:
+Clone this repository to your local machine:
 
-   ```bash
-   git clone <repository-url>
-
-    Navigate to the cloned directory:
-
-    bash 
- ```
-cd <repository-directory>
-
-Install dependencies using npm:
-
- ```bash
-
-    npm install
-
- ```
 Configuration
 
 Before running the script, you need to provide your Cisco Webex user token. You can obtain your token from the Cisco Webex Developer Portal.
