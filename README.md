@@ -12,8 +12,11 @@ Before running this script, make sure you have the following:
 
 ## Installation
 
-Clone this repository to your local machine or simply copy this code:
-
+Clone this repository to your local machine or simply copy this code.
+Then install Axios
+```
+npm install axios
+```
 ## Configuration
 
 Before running the script, you need to provide your Cisco Webex user token. You can obtain your token from the Cisco Webex Developer Portal.
@@ -25,7 +28,7 @@ Replace <your user token here> with your actual user token in the drr.js file:
 const userToken = "<your user token here>";
 
  ```
-Usage
+##Usage
 
 To run the script, execute the following command:
 
