@@ -19,34 +19,36 @@ Before running this script, make sure you have the following:
 
     Navigate to the cloned directory:
 
-    bash
-
+    bash 
+ ```
 cd <repository-directory>
 
 Install dependencies using npm:
 
-bash
+ ```bash
 
     npm install
 
+ ```
 Configuration
 
 Before running the script, you need to provide your Cisco Webex user token. You can obtain your token from the Cisco Webex Developer Portal.
 
 Replace <your user token here> with your actual user token in the index.js file:
 
-javascript
+ ``` javascript
 
 const userToken = "<your user token here>";
 
+ ```
 Usage
 
 To run the script, execute the following command:
 
-bash
+ ```bash
 
 node index.js
-
+ ```
 The script will retrieve the list of devices from the Cisco Webex API and attempt to delete each device. If successful, it will print a success message. If there's an error during the deletion process, it will print an error message and prompt you to delete the device manually.
 Notes
 
