@@ -24,6 +24,8 @@ Before running the script, you need to provide your Cisco Webex user token. You 
 
 Replace <your BOT token here> with your actual BOT token in the drr.js file:
 
+**BIG WARNING - DO NOT use your USER Token - Otherwise it will remove all of your sessions**
+
  ``` javascript
 
 const userToken = "<your user token here>";
