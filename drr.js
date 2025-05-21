@@ -1,11 +1,11 @@
 const axios = require('axios');
 const https = require('https'); // Import the 'https' module
 
-const userToken = "<your user token here>";
+const botToken = "<your BOT token here>";
 const headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",
-    "Authorization": `Bearer ${userToken}`
+    "Authorization": `Bearer ${botToken}`
 };
 
 // Create a new axios instance with a custom httpsAgent
