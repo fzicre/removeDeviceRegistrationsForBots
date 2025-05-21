@@ -22,7 +22,7 @@ npm install axios
 
 Before running the script, you need to provide your Cisco Webex user token. You can obtain your token from the Cisco Webex Developer Portal.
 
-Replace <your user token here> with your actual user token in the drr.js file:
+Replace <your BOT token here> with your actual BOT token in the drr.js file:
 
  ``` javascript
 
